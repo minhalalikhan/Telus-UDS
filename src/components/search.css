@@ -1,0 +1,58 @@
+.div2 {
+    background: rgb(227, 230, 232);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 32px;
+    border-width: 0px;
+    border-color: rgb(227, 230, 232);
+}
+
+.input {
+    --placeholderTextColor: #414547;
+    background-color: rgb(255, 255, 255);
+    color: rgb(65, 69, 71);
+    border-width: 1px;
+    border-color: rgb(103, 110, 115);
+    border-radius: 32px;
+    padding: 11px 87px 11px 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: HelveticaNow400normal;
+    outline: none;
+    resize: none;
+}
+
+.div3 {
+    padding-right: 8px;
+}
+
+.div4 {
+    padding: 8px;
+    background-color: rgb(75, 40, 109);
+    border-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    border-radius: 32px;
+    max-width: 100%;
+    transition: background-color 200ms ease 0s, border-color 200ms ease 0s;
+    pointer-events: none;
+    flex-direction: row;
+}
+
+.div6 {
+    max-width: calc(100% + 0px);
+    width: fit-content;
+    outline: none;
+    opacity: 1;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 32px;
+    border-width: 0px;
+    display: inline-flex;
+}
+
+.div7 {
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-grow: 0;
+    flex-shrink: 0;
+}

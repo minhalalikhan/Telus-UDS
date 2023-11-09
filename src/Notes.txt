@@ -1,0 +1,13 @@
+### SETUP ISSUES NAD FIX ###
+
+1.  create @telus-uds/theme-allium.d.ts file 
+and add  "declare module '@telus-uds/theme-allium';" line in it
+
+2. create init.js to resolve global is missing error
+   add a line "  window.global = window.global || window;" in it
+    import init.js in app.jsx
+
+3.   import AlliumTheme from '@telus-uds/theme-allium'
+    you can use any name instead of AlliumTheme
+
+ 4. child prop err occurs when tds components have no children ( children are required )   
